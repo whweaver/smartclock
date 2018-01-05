@@ -1,0 +1,41 @@
+{% extends "alarm/base.html" %}
+
+{% block header_additions %}
+<link rel="stylesheet" href="/static/accounts/style/style.css">
+{% endblock %}
+
+{% block content %}
+<div class="pure-g">
+    <a href="account/new" class="account-entry-link">
+        <div class="pure-u-1 account-entry">
+            <div class="account-entry-new-container">
+                <h1 class="account-entry-new">New...</h1>
+            </div>
+        </div>
+    </a>
+
+{% for account in accounts %}
+    
+        <a href="account/{{ account.id }}" class="account-entry-link">
+            <div class="pure-u-1 account-entry">
+                <div class="pure-g">
+                    <div class="pure-u-1-4 account-entry-icon">
+{% if account.service == 'P' %}
+                        <img src="/static/shared/images/pandora.png" class="account-entry-icon-image" />
+{% elif account.service == 'S' %}
+                        <img src="/static/shared/images/spotify.png" class="account-entry-icon-image" />
+{% elif account.service == 'G' %}
+                        <img src="/static/shared/images/google_play.png" class="account-entry-icon-image" />
+{% endif %}
+                    </div>
+                    <div class="pure-u-3-4 account-entry-username">
+                        <h1 class="account-entry-username-text">{{account.username}}</h1>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+{% endfor %}
+
+</div>
+{% endblock %}

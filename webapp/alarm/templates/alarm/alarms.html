@@ -1,0 +1,73 @@
+{% extends "alarm/base.html" %}
+
+{% block header_additions %}
+<link rel="stylesheet" href="/static/alarms/style/style.css">
+<script src="/static/alarms/js/script.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="pure-g">
+    <a href="alarm/new" class="alarm-entry-link">
+        <div class="pure-u-1 alarm-entry">
+            <div class="alarm-entry-details">
+                <h1 class="alarm-entry-new">New...</h1>
+            </div>
+        </div>
+    </a>
+
+{% for alarm in alarms %}
+    
+    <a href="alarm/{{ alarm.id }}" class="alarm-entry-link">
+        <div class="pure-u-1 alarm-entry">
+            <div class="pure-g">
+                <div class="pure-u-3-24 alarm-entry-enable">
+                    <form id="enable_{{ alarm.id }}" action="javascript:enable({{ alarm.id }})">
+                        {% csrf_token %}
+                        <input type="hidden" name="alarmid" value="{{ alarm.id }}" />
+{% if alarm.enabled == True %}
+                        <input id="{{ alarm.id }}_enabled" type="image" border = "0" class="alarm-entry-enable-image" src="/static/alarms/images/checkmark.png" />
+{% else %}
+                        <input id="{{ alarm.id }}_enabled" type="image" border = "0" class="alarm-entry-enable-image" src="/static/shared/images/blank.png" />
+{% endif %}
+                    </form>
+                </div>
+                <div class="pure-u-6-24 alarm-entry-details">
+                    <div class="alarm-entry-details-container">
+                        <h1 class="alarm-entry-time">{{ alarm.get_time_display }}</h1><h1 class="alarm-entry-m">am</h1>
+                        <h2 class="alarm-entry-days">{{ alarm.get_days_display }}</h2>
+                    </div>
+                </div>
+                <div class="pure-u-15-24 alarm-entry-features">
+                    <div class="alarm-entry-features-container">
+                        <div class="pure-u-1 alarm-entry-feature-container">
+                            <div class="alarm-entry-feature-image-container">
+{% if alarm.music_account.service == "P" %}
+                                <img src="/static/shared/images/pandora.png" class="alarm-entry-feature-image" />
+{% else %}
+                                <img src="/static/shared/images/blank.png" class="alarm-entry-feature-image" />
+{% endif %}
+                            </div>
+                            <div class="alarm-entry-feature-text-container">
+                                <div class="alarm-entry-feature-text">{{ alarm.get_playlist_display }}</div>
+                            </div>
+                        </div>
+                        <div class="pure-u-1 alarm-entry-feature-container" style="display:flex">
+                            <div class="alarm-entry-feature-image-container">
+                                <img src="/static/shared/images/sunrise.png" class="alarm-entry-feature-image" />
+                            </div>
+                            <div class="alarm-entry-feature-text-container">
+                                <div class="alarm-entry-feature-text">{{ alarm.sunrise_fade }}min</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

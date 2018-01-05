@@ -1,0 +1,1927 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"warm",
+				"warm_brightness"
+			],
+			[
+				"warm_brightness",
+				"warm_brightness"
+			],
+			[
+				"alarm",
+				"alarm_list_lock"
+			],
+			[
+				"snooze",
+				"snooze_changed"
+			],
+			[
+				"snooz",
+				"snooze_event"
+			],
+			[
+				"snoo",
+				"snooze_event"
+			],
+			[
+				"pressed",
+				"pressed_event"
+			],
+			[
+				"rele",
+				"released_event"
+			],
+			[
+				"time",
+				"time_til_next_sunrise_update"
+			],
+			[
+				"tim",
+				"time_til_next_sunrise_update"
+			],
+			[
+				"at_full",
+				"at_full_music_vol"
+			],
+			[
+				"music",
+				"music_vol"
+			],
+			[
+				"full",
+				"full_music_time"
+			],
+			[
+				"wait_for_",
+				"wait_for_next_update"
+			],
+			[
+				"time_til_ne",
+				"time_til_next_music_incr"
+			],
+			[
+				"cur_",
+				"cur_sunrise_brightness"
+			],
+			[
+				"remaing",
+				"remaining_music_fade_vol"
+			],
+			[
+				"cur",
+				"cur_music_volume"
+			],
+			[
+				"wa",
+				"warm_brightness"
+			],
+			[
+				"musi",
+				"music_volume"
+			],
+			[
+				"full_",
+				"full_music_time"
+			],
+			[
+				"sunr",
+				"sunrise_fade_time"
+			],
+			[
+				"music_fade",
+				"music_fade_time"
+			],
+			[
+				"process",
+				"process_sunrise"
+			],
+			[
+				"sunrise",
+				"sunrise_duration"
+			],
+			[
+				"io",
+				"io_speaker"
+			],
+			[
+				"PiIO",
+				"PiIOException"
+			],
+			[
+				"upda",
+				"updatable_gpio"
+			],
+			[
+				"GPIO",
+				"GPIO_INPUTS"
+			],
+			[
+				"deb",
+				"debounced_states"
+			],
+			[
+				"stae",
+				"state_lock"
+			],
+			[
+				"gpio",
+				"gpio_levels"
+			],
+			[
+				"change",
+				"change_duty_cycle"
+			],
+			[
+				"chane",
+				"change_duty_cycle"
+			],
+			[
+				"sw",
+				"sw_pwm_lock"
+			],
+			[
+				"sw_pwm",
+				"sw_pwm_lock"
+			],
+			[
+				"HW_PWM",
+				"HW_PWM_PINS_BY_CHANNEL"
+			],
+			[
+				"HW",
+				"HW_PWM_CHANNELS_BY_PIN"
+			],
+			[
+				"stopp",
+				"stoppable_thread_stop_event"
+			],
+			[
+				"pig_",
+				"pig_lock"
+			],
+			[
+				"event",
+				"event_lock"
+			],
+			[
+				"join",
+				"join_event"
+			],
+			[
+				"stop",
+				"stopping_gpio_lock"
+			],
+			[
+				"pig",
+				"pig_lock"
+			],
+			[
+				"Phys",
+				"PhysicalInputGpio"
+			],
+			[
+				"even",
+				"event_lock"
+			],
+			[
+				"state",
+				"state_lock"
+			],
+			[
+				"edge",
+				"edge_events"
+			],
+			[
+				"play",
+				"play_playlist"
+			],
+			[
+				"pand",
+				"pandora_service"
+			],
+			[
+				"render",
+				"render_to_string"
+			],
+			[
+				"get_",
+				"get_music_service_from_account"
+			],
+			[
+				"pl",
+				"playlist_id"
+			],
+			[
+				"Pandora",
+				"PandoraService"
+			],
+			[
+				"sec",
+				"secs_until_next_minute"
+			],
+			[
+				"sig",
+				"sigterm_handler"
+			],
+			[
+				"Segment",
+				"SevenSegDisplaySegment"
+			],
+			[
+				"Seve",
+				"SevenSegDisplaySegment"
+			],
+			[
+				"Sev",
+				"SevenSegDisplayCharacter"
+			],
+			[
+				"PS_Bus_Data_",
+				"PS_Bus_Data_GetPrndl_ExpectAndReturn"
+			],
+			[
+				"Rcd",
+				"Ps_Gui_Rcd_Enabled"
+			],
+			[
+				"Gntx",
+				"Gntx_Fdm_Gui_Display_Mode"
+			],
+			[
+				"mode",
+				"Gntx_Fdm_Gui_Display_Mode"
+			],
+			[
+				"OVERLAY_INDEX_RCD_",
+				"OVERLAY_INDEX_RCD_LEFT_BORDER"
+			],
+			[
+				"Test",
+				"Test_Aim_Config"
+			],
+			[
+				"revere",
+				"reverse_pass_through_timer"
+			],
+			[
+				"reverse",
+				"reverse_pass_through_timer"
+			],
+			[
+				"Exte",
+				"Hw_Tw_External_Faults"
+			],
+			[
+				"PS_VIDEOPROCESSING_RCD_REVERSE_STATE_ON",
+				"PS_VIDEOPROCESSING_RCD_REVERSE_STATE_ON_DELAY"
+			],
+			[
+				"OFF",
+				"PS_VIDEOPROCESSING_RCD_REVERSE_STATE_OFF"
+			],
+			[
+				"Tem",
+				"Time_Utils_GetBaseTimeMs_ExpectAndReturn"
+			],
+			[
+				"T",
+				"Time_Utils_GetElapsedMs_ExpectAndReturn"
+			],
+			[
+				"Time",
+				"Time_Utils_GetBaseTimeMs_ExpectAndReturn"
+			],
+			[
+				"Time_Utils",
+				"Time_Utils_GetBaseTimeMs_ExpectAndReturn"
+			],
+			[
+				"Helper",
+				"Helper_ProcessVideoValidity"
+			],
+			[
+				"VideoProcessing",
+				"Test_VideoProcessing_Data"
+			],
+			[
+				"Ps_",
+				"Ps_Gui_Is_Dirty"
+			],
+			[
+				"MDM",
+				"GNTX_FDM_GUI_DISPLAY_MDM"
+			],
+			[
+				"PS_GUI_AddOverlay",
+				"PS_GUI_AddOverlay_ExpectHelper"
+			],
+			[
+				"TEST",
+				"TEST_ASSERT_EQUAL"
+			],
+			[
+				"HW_TW_STATE_OFF",
+				"HW_TW_STATE_POWER_OFF"
+			],
+			[
+				"p_",
+				"p_Hw_Tw_Init"
+			],
+			[
+				"HwTw",
+				"Hw_Tw_Timer"
+			],
+			[
+				"HW_TW_State",
+				"Hw_Tw_State"
+			],
+			[
+				"Hw",
+				"Hw_Tw_I2c_Msg"
+			],
+			[
+				"TEST_A",
+				"TEST_ASSERT_EQUAL"
+			],
+			[
+				"PS_VideoProcessi",
+				"mock_PS_VideoProcessing_Rcd"
+			],
+			[
+				"Base",
+				"Time_Utils_GetBaseTimeMs"
+			],
+			[
+				"Timer",
+				"Hw_Tw_Timer"
+			],
+			[
+				"Index",
+				"Hw_Tw_Init_Data_Index"
+			],
+			[
+				"Req",
+				"Cam_Pwr_Requested"
+			],
+			[
+				"RCDOFF",
+				"PS_VIDEOPROCESSING_RCD_STATE_OFF"
+			],
+			[
+				"INVALID",
+				"PS_VIDEOPROCESSING_RCD_STATE_INVALID_VIDEO"
+			],
+			[
+				"Video",
+				"Video_Invalid"
+			],
+			[
+				"INVLAID",
+				"PS_VIDEOPROCESSING_RCD_STATE_INVALID_VIDEO"
+			],
+			[
+				"video",
+				"video_validity_timer"
+			],
+			[
+				"Re",
+				"Reverse_State"
+			],
+			[
+				"Elap",
+				"Time_Utils_GetElapsedMs"
+			],
+			[
+				"cam",
+				"Cam_Pwr_Requested"
+			],
+			[
+				"Hw_Tw",
+				"Hw_Tw_Timer"
+			],
+			[
+				"Prndl",
+				"PS_Bus_Data_GetPrndl"
+			],
+			[
+				"Time_",
+				"Time_Utils_GetElapsedMs"
+			],
+			[
+				"PS_Bus",
+				"PS_Bus_Data_GetPrndl"
+			],
+			[
+				"GNTX_",
+				"GNTX_NUM_ELEMENTS"
+			],
+			[
+				"VideoProce",
+				"VideoProcessing_Data"
+			],
+			[
+				"PS_Vide",
+				"PS_VideoProcessing_AutoAim"
+			],
+			[
+				"PS_Vid",
+				"PS_VideoProcessing_TiltOffsets_Init"
+			],
+			[
+				"pass",
+				"pass_through_delay"
+			],
+			[
+				"PRNDL",
+				"RZI_PRNDL_REVERSE"
+			],
+			[
+				"RCD",
+				"RCD_SUPPORTED"
+			],
+			[
+				"aut",
+				"enable_auto_aim"
+			],
+			[
+				"local_",
+				"local_allocated_size"
+			],
+			[
+				"Test_Res",
+				"Test_Response_Buffer"
+			],
+			[
+				"Core",
+				"Core_Diag_Command_Object_T"
+			],
+			[
+				"tilt_off",
+				"tilt_offsets_ram"
+			],
+			[
+				"TEST_ASS",
+				"TEST_ASSERT_EQUAL_MEMORY"
+			],
+			[
+				"MemMgr_",
+				"MemMgr_GetWorkingCopy_ExpectAndReturn"
+			],
+			[
+				"local",
+				"local_tilt_offsets"
+			],
+			[
+				"Mem",
+				"MemMgr_GetWorkingCopy_ExpectAndReturn"
+			],
+			[
+				"Test_Tilt",
+				"Test_Tilt_Offset"
+			],
+			[
+				"GENTEX",
+				"GENTEX_CONFIGURATION_FILE_FORMAT_ID"
+			],
+			[
+				"TILT_",
+				"TILT_NORMAL_SPEED_THRESHOLD"
+			],
+			[
+				"requested",
+				"requested_tilt"
+			],
+			[
+				"Overlay",
+				"Overlay_Update_Complete"
+			],
+			[
+				"MEN",
+				"MENU_INDEX_COUNT"
+			],
+			[
+				"MENU",
+				"MENU_INDEX_FDM"
+			],
+			[
+				"VideoPro",
+				"VideoProcessing_Data"
+			],
+			[
+				"oper",
+				"operating_mode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "core/app/clock.py",
+			"settings":
+			{
+				"buffer_size": 717,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/app/alarm_manager.py",
+			"settings":
+			{
+				"buffer_size": 7032,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webapp/alarm/models.py",
+			"settings":
+			{
+				"buffer_size": 4381,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webapp/alarm/forms.py",
+			"settings":
+			{
+				"buffer_size": 5660,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webapp/alarm/templates/alarm/alarm.html",
+			"settings":
+			{
+				"buffer_size": 3920,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webapp/alarm/views_alarms.py",
+			"settings":
+			{
+				"buffer_size": 2755,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webapp/alarm/templates/alarm/alarms.html",
+			"settings":
+			{
+				"buffer_size": 3303,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/hw/pi_io.py",
+			"settings":
+			{
+				"buffer_size": 5297,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/mock_hw/pi_io.py",
+			"settings":
+			{
+				"buffer_size": 2186,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/env.py",
+			"settings":
+			{
+				"buffer_size": 279,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "import sys"
+			}
+		},
+		{
+			"file": "core/run.py",
+			"settings":
+			{
+				"buffer_size": 48,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "import env"
+			}
+		},
+		{
+			"file": "core/app/app.py",
+			"settings":
+			{
+				"buffer_size": 935,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "Install P",
+		"selected_items":
+		[
+			[
+				"Install P",
+				"Package Control: Install Package"
+			],
+			[
+				"status",
+				"SVN: Status"
+			],
+			[
+				"update",
+				"SVN: Update"
+			],
+			[
+				"View",
+				"View: Toggle Status Bar"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 551.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"print (view.syntax_name(view.sel()[0].b))",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/will/Projects/Personal/Personal/smartclock",
+		"/home/will/Projects/Personal/Personal/smartclock/core",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app",
+		"/home/will/Projects/Personal/Personal/smartclock/core/hw",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/webapp"
+	],
+	"file_history":
+	[
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/app.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/stoppable_thread.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/models.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views_alarms.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/hw/input.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/webapp/settings.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/alarm.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarms.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarms/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarms/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarm.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/base.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/account/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/shared/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/account.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views_accounts.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/pandora_service.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/account/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/accounts/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/music_service.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/forms.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/playlists.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/settings/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/accounts.html",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/clock.py",
+		"/home/will/Projects/Personal/Personal/smartclock/env/lib/python3.5/site-packages/pydora/audio_backend.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/pandora.py",
+		"/usr/local/bin/pydora",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarms_entry.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/webapp/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/base/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/settings.html",
+		"/home/will/Projects/Personal/Personal/smartclock/core/hw/hw_7seg.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/seven_seg.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/timer.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/manage.py",
+		"/home/will/Projects/Personal/Personal/smartclock/smartclock.sublime-project",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/views.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/templates/alarm/accounts.html",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/templates/alarm/settings.html",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/templates/alarm/base.html",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/setup/models.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/models.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/webapp/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/templates/alarm/alarms.html",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/webapp/settings.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/setup/views.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/setup/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/templates/alarm/main.html",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/apps.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/smartclock/views.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/alarm.py",
+		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/smartclock/urls.py",
+		"/home/will/Projects/Personal/Personal/smartclock/env/bin/activate",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_AutoAim.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_AutoAim.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Rakefile.rb",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_TiltOffsets.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_AutoAim.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_TiltOffsets.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI_Defines.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI_Types.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/GUI/PS/test_PS_GUI.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Rcd.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Event/test_PS_Event_RcdCamPwrError.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Comms.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/LIB/VideoProcessing/GPU_Zynq/GPU_Overlays.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Types.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_Overlay_Data.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_boot.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_cfg_sunnylens.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_cfg_pg.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_overlays_norcdgd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_overlays_rcdgd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Config/Overlays/_overlays.txt",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_cmp_pnrll_norcd_sunnylens.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_cmp_pnrll_norcd_sunnylens_ctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_cmp_pnrll_rcd_sunnylens.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_nocmp_nopnrll_norcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_nocmp_nopnrll_norcd_ctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_nohl_nocmp_nopnrll_norcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_cmp_pnrll_norcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_cmp_pnrll_norcd_ctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_cmp_pnrll_rcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_nocmp_nopnrll_norcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_nocmp_nopnrll_norcd_ctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_nohl_nocmp_nopnrll_norcd.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_cmp_pnrll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Config/nvm/nvm_cfg.yml.erb",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/LIB/VideoProcessing/GPU_Zynq/GPU_RcdAvm.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Rcd.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_comp_panroll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_comp_panroll_pg.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_comp_panroll_hlctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll_pg.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll_hlctx.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Event/PS/PS_Event_RcdCamPwrError.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_combined_nohl_nocomp_nopanroll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_nocomp_nopanroll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_app0_hl_comp_panroll.py",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Event/LIB/EVNT_IF.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Event/test_PS_Event.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/HW_TW.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Display/PS/test_HW_TW.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Event/LIB/EVNT_Types.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/LIB/GNTX_FDM_GUI/GNTX_FDM_GUI_Types.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_ColorRed.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/config/test_GentexConfigurationFile.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_TiltOffsets.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Config/cfg/assets/GentexConfigurationFile.c.erb",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/config/GentexConfigurationFile.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Cals/test_PS_CALS_Data.c",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/PLI/PLI.h",
+		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_bitstream.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"add_alarm",
+			"self.alarms",
+			"speaker",
+			"alarm",
+			"alarmconfig",
+			"png",
+			"20px",
+			"\n}",
+			"MusicService",
+			"PandoraService",
+			"HttpResponse",
+			"class",
+			"\\n      (?=\\(\\d[123456789], '\\d[123456789]'\\),)",
+			"setup",
+			">\n",
+			"alarm-entry-feature-image-container",
+			"alarm-entry-header",
+			"alarm_entry",
+			"alarm_entry_",
+			"777",
+			"navbar_link",
+			"navbar_item",
+			"None"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			"      ",
+			"alarm-entry-features-container",
+			"alarm-entry-enable",
+			"alarm-entry",
+			"alarm-entry-",
+			"navbar-link",
+			"navbar-item"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "core/app/clock.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 717,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "73019506",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "core/app/alarm_manager.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1298,
+								1298
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "54f56c56",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webapp/alarm/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3804,
+								3804
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "aecd7b32",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "webapp/alarm/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4066,
+								4066
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "602f31d6",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "webapp/alarm/templates/alarm/alarm.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2598,
+								2598
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (django)",
+							"buffer_scroll_name": "16fa50bc",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webapp/alarm/views_alarms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1733,
+								1573
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "108cddc6",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "webapp/alarm/templates/alarm/alarms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1799,
+								1799
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html (django)",
+							"buffer_scroll_name": "5157ec19",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "core/hw/pi_io.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4061,
+								4061
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "4731b043",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "core/mock_hw/pi_io.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1344,
+								1344
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "deb0caa0",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "core/env.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import sys",
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "4f234f13",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "core/run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import env",
+							"bs_sintax": "plain text",
+							"buffer_scroll_name": "d79fed6b",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "core/app/app.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "05516684",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "smartclock.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"alarms.th",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
+				"alarm.html",
+				"webapp/alarm/templates/alarm/alarm.html"
+			],
+			[
+				"forms",
+				"webapp/alarm/forms.py"
+			],
+			[
+				"app",
+				"core/app/app.py"
+			],
+			[
+				"views_ala",
+				"webapp/alarm/views_alarms.py"
+			],
+			[
+				"models",
+				"webapp/alarm/models.py"
+			],
+			[
+				"views_al",
+				"webapp/alarm/views_alarms.py"
+			],
+			[
+				"views",
+				"webapp/alarm/views.py"
+			],
+			[
+				"stop",
+				"core/app/stoppable_thread.py"
+			],
+			[
+				"clock",
+				"core/app/clock.py"
+			],
+			[
+				"alarmp",
+				"core/app/alarm.py"
+			],
+			[
+				"sett",
+				"webapp/webapp/settings.py"
+			],
+			[
+				"url",
+				"webapp/alarm/urls.py"
+			],
+			[
+				"script",
+				"webapp/alarm/static/account/js/script.js"
+			],
+			[
+				"base",
+				"webapp/alarm/templates/alarm/base.html"
+			],
+			[
+				"alarm",
+				"webapp/alarm/templates/alarm/alarm.html"
+			],
+			[
+				"alamrs",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
+				"style",
+				"webapp/alarm/static/alarms/style/style.css"
+			],
+			[
+				"pandor",
+				"core/app/pandora_service.py"
+			],
+			[
+				"alarms",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
+				"acc",
+				"webapp/alarm/templates/alarm/account.html"
+			],
+			[
+				"accou",
+				"webapp/alarm/templates/alarm/account.html"
+			],
+			[
+				"scip",
+				"webapp/alarm/static/account/js/script.js"
+			],
+			[
+				"views_a",
+				"webapp/alarm/views_accounts.py"
+			],
+			[
+				"account",
+				"webapp/alarm/templates/alarm/account.html"
+			],
+			[
+				"style.css",
+				"webapp/alarm/static/alarms/style/style.css"
+			],
+			[
+				"pla",
+				"webapp/alarm/templates/alarm/playlists.html"
+			],
+			[
+				"account.",
+				"webapp/alarm/templates/alarm/account.html"
+			],
+			[
+				"views_ac",
+				"webapp/alarm/views_accounts.py"
+			],
+			[
+				"music",
+				"core/app/music_service.py"
+			],
+			[
+				"modle",
+				"webapp/alarm/models.py"
+			],
+			[
+				"alarms.",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
+				"urls",
+				"webapp/alarm/urls.py"
+			],
+			[
+				"settings.h",
+				"webapp/alarm/templates/alarm/settings.html"
+			],
+			[
+				".html",
+				"webapp/alarm/templates/alarm/accounts.html"
+			],
+			[
+				"urls.py",
+				"webapp/webapp/urls.py"
+			],
+			[
+				"mana",
+				"webapp/manage.py"
+			],
+			[
+				"base.ht",
+				"webapp/alarm/templates/alarm/base.html"
+			],
+			[
+				"settings",
+				"src/webapp/alarm/templates/alarm/settings.html"
+			],
+			[
+				"apps",
+				"src/webapp/alarm/apps.py"
+			],
+			[
+				"view",
+				"src/webapp/setup/views.py"
+			],
+			[
+				"psvidetilt",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_TiltOffsets.c"
+			],
+			[
+				"videoprotypes",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Core/VideoProcessing_Types.h"
+			],
+			[
+				"psvideoprocess",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing.c"
+			],
+			[
+				"gpkg",
+				"Zynq/gpkgfile"
+			],
+			[
+				"rake",
+				"Zynq/Rakefile.rb"
+			],
+			[
+				"testtiltoff",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_TiltOffsets.c"
+			],
+			[
+				"tiltoff",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_TiltOffsets.c"
+			],
+			[
+				"testpsvidauto",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_AutoAim.c"
+			],
+			[
+				"testpsvideo",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing.c"
+			],
+			[
+				"psvideoaut",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_AutoAim.h"
+			],
+			[
+				"psvide",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing.c"
+			],
+			[
+				"psguidefin",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Defines.h"
+			],
+			[
+				"psgui.h",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI.h"
+			],
+			[
+				"psgui.c",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI.c"
+			],
+			[
+				"testpsgui",
+				"Zynq/Test/src/app0/GUI/PS/test_PS_GUI.c"
+			],
+			[
+				"psguidef",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Defines.h"
+			],
+			[
+				"psguitype",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Types.h"
+			],
+			[
+				"overlay",
+				"Zynq/Code/app/app0/Display/PS/PS_Overlay_Data.c"
+			],
+			[
+				"progboo",
+				"Zynq/Programming/Python/prog_boot.py"
+			],
+			[
+				"_ov",
+				"Zynq/Config/Overlays/_overlays.txt"
+			],
+			[
+				"_over",
+				"Zynq/Config/Overlays/_overlays.txt"
+			],
+			[
+				"progapp0hlcmppnrll",
+				"Zynq/Programming/Python/prog_app0_hl_cmp_pnrll.py"
+			],
+			[
+				"psvie",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing.c"
+			],
+			[
+				"nvm",
+				"Zynq/Config/nvm/nvm_cfg.yml.erb"
+			],
+			[
+				"gpurcd",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/GPU_Zynq/GPU_RcdAvm.c"
+			],
+			[
+				"testpsvide",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing.c"
+			],
+			[
+				"testpsvidcom",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Comms.c"
+			],
+			[
+				"testpsvideocomm",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Comms.c"
+			],
+			[
+				"progcomnohln",
+				"Zynq/Programming/Python/prog_combined_nohl_nocomp_nopanroll.py"
+			],
+			[
+				"progcomhlnocomphlc",
+				"Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll_hlctx.py"
+			],
+			[
+				"proghlnocompnopg",
+				"Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll_pg.py"
+			],
+			[
+				"progcombhlnoc",
+				"Zynq/Programming/Python/prog_combined_hl_nocomp_nopanroll.py"
+			],
+			[
+				"progcombinedhlcomppanroll",
+				"Zynq/Programming/Python/prog_combined_hl_comp_panroll.py"
+			],
+			[
+				"progcomhlcoppanhlc",
+				"Zynq/Programming/Python/prog_combined_hl_comp_panroll_hlctx.py"
+			],
+			[
+				"rakefile",
+				"Zynq/Rakefile.rb"
+			],
+			[
+				"proghlcomppanpg",
+				"Zynq/Programming/Python/prog_combined_hl_comp_panroll_pg.py"
+			],
+			[
+				"progcomhlcomp",
+				"Zynq/Programming/Python/prog_combined_hl_comp_panroll.py"
+			],
+			[
+				"prog_app0",
+				"Zynq/Programming/Python/prog_app0_hl_nocomp_nopanroll.py"
+			],
+			[
+				"progapp0hlcomppan",
+				"Zynq/Programming/Python/prog_app0_hl_comp_panroll.py"
+			],
+			[
+				"psguide",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Defines.h"
+			],
+			[
+				"evnt",
+				"Zynq/Code/app/app0/Event/LIB/EVNT_IF.c"
+			],
+			[
+				"testpsevent",
+				"Zynq/Test/src/app0/Event/test_PS_Event.c"
+			],
+			[
+				"evnt.",
+				"Zynq/Code/app/app0/Event/LIB/EVNT_IF.c"
+			],
+			[
+				"rcdpw",
+				"Zynq/Code/app/app0/Event/PS/PS_Event_RcdCamPwrError.c"
+			],
+			[
+				"hwtw",
+				"Zynq/Code/app/app0/Display/PS/HW_TW.c"
+			],
+			[
+				"testeventrcd",
+				"Zynq/Test/src/app0/Event/test_PS_Event_RcdCamPwrError.c"
+			],
+			[
+				"testhwtw",
+				"Zynq/Test/src/app0/Display/PS/test_HW_TW.c"
+			],
+			[
+				"psrcd",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Rcd.c"
+			],
+			[
+				"testpsrcd",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Rcd.c"
+			],
+			[
+				"colored",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_ColorRed.c"
+			],
+			[
+				"rakef",
+				"Zynq/Rakefile.rb"
+			],
+			[
+				"gntxgui",
+				"Zynq/Code/app/app0/GUI/LIB/GNTX_FDM_GUI/GNTX_FDM_GUI_Types.h"
+			],
+			[
+				"psguidefines",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Defines.h"
+			],
+			[
+				"pscalsdata",
+				"Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.c"
+			],
+			[
+				"nvmcfg",
+				"Zynq/Config/nvm/nvm_cfg.yml.erb"
+			],
+			[
+				"psvrcd",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Rcd.c"
+			],
+			[
+				"psvideo",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing.c"
+			],
+			[
+				"testgentex",
+				"Zynq/Test/src/config/test_GentexConfigurationFile.c"
+			],
+			[
+				"testpscalsdata",
+				"Zynq/Test/src/app0/Cals/test_PS_CALS_Data.c"
+			],
+			[
+				"progbitst",
+				"Zynq/Programming/Python/prog_bitstream.py"
+			],
+			[
+				"progapp0",
+				"Zynq/Programming/Python/prog_app0_hl_comp_panroll.py"
+			],
+			[
+				"psguidata.h",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Data.h"
+			],
+			[
+				"psvidty",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Types.h"
+			],
+			[
+				"testpsvidrcd",
+				"Zynq/Test/src/app0/Display/PS/test_PS_VideoProcessing_Rcd.c"
+			],
+			[
+				"testmdmspa",
+				"Zynq/Test/src/app0/GUI/PS/test_PS_GUI_MDM_Splash.c"
+			],
+			[
+				"gentex.h",
+				"Zynq/Code/config/GentexConfigurationFile.h"
+			],
+			[
+				"mdmrcd",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_MDM_RCD.c"
+			],
+			[
+				"psvidtypes",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Types.h"
+			],
+			[
+				"psvidcomm.h",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.h"
+			],
+			[
+				"psvidcom",
+				"Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.c"
+			],
+			[
+				"videotypes",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Core/VideoProcessing_Types.h"
+			],
+			[
+				"videooverdiag",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
+			],
+			[
+				"vidoverdia",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
+			],
+			[
+				"gpuoverlay",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/GPU_Zynq/GPU_Overlays.c"
+			],
+			[
+				"videoo",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
+			],
+			[
+				"video",
+				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Diag.c"
+			],
+			[
+				"emio.h",
+				"Zynq/Code/app/app0/Pin_Init/EMIO.h"
+			],
+			[
+				"psguimdms",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_MDM_Splash.c"
+			],
+			[
+				"testpsguimdms",
+				"Zynq/Test/src/app0/GUI/PS/test_PS_GUI_MDM_Splash.c"
+			],
+			[
+				"fdmrcd",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_RCD.c"
+			],
+			[
+				"gntmac",
+				"Zynq/Code/common/libs/SharedIncludes/GNTX_Common_Macros.h"
+			],
+			[
+				"buttoni2c",
+				"Zynq/Code/app/app0/Button/Platform/Button_I2c/Button_I2c.c"
+			],
+			[
+				"psguihl",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_HL.c"
+			],
+			[
+				"fdmspas",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_Splash.c"
+			],
+			[
+				"fdmspash",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_Splash.c"
+			],
+			[
+				"psguidata",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Data.c"
+			],
+			[
+				"mdm",
+				"Zynq/Code/app/app0/GUI/PS/PS_GUI_MDM_Splash.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/Aftermarket/1654/Zynq/Corporate_Gen2_FDM_Zynq.sublime-project"
+			],
+			[
+				"gntx",
+				"~/Projects/Personal/gntx-files/bash/gntx-files-bash.sublime-project"
+			],
+			[
+				"niss",
+				"~/Projects/Nissan/1547/Nissan_NMP.sublime-project"
+			],
+			[
+				"zynq",
+				"~/Projects/Platform_Packages/Zynq/Debug_Diag/Zynq_Debug_Diag.sublime-project"
+			],
+			[
+				"rh",
+				"~/Projects/Aftermarket/1654/RH850/Corporate_Gen2_FDM_RH850.sublime-project"
+			],
+			[
+				"bash",
+				"~/Projects/Personal/gntx-files/bash/gntx-files-bash.sublime-project"
+			],
+			[
+				"merce",
+				"~/Projects/Mercedes/WIM2_HLDC/Mercedes_WIM2_HLDC.sublime-project"
+			],
+			[
+				"Honda",
+				"~/Projects/Honda/1376/Honda_SlimBox_1376.sublime-project"
+			],
+			[
+				"honda",
+				"~/Projects/Honda/1376/Honda_SlimBox_1376.sublime-project"
+			],
+			[
+				"mer",
+				"~/Projects/Mercedes/WIM2_HLDC/Mercedes_WIM2_HLDC.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

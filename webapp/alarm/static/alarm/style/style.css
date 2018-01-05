@@ -1,0 +1,96 @@
+.alarm-time {
+    font-size: 72px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.alarm-days {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.alarm-day {
+    text-align: center;
+}
+
+.alarm-category-container-container {
+    display: flex;
+}
+
+.alarm-category-container {
+    display: flex;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
+
+.alarm-category {
+    display: flex;
+}
+
+.alarm-category-image-container {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    width: 20vw;
+    padding: 20px;
+}
+
+.alarm-category-image {
+    width: 16vw;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.alarm-category-details {
+    max-width: 80vw;
+}
+
+.alarm-music-playlist {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height:50%;
+}
+
+.alarm-music-details {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+.alarm-music-fade {
+    padding-right: 20px;
+    display: inline;
+}
+
+.alarm-music-vol {
+    display: inline;
+}
+
+.alarm-music-detail-image {
+    width: 25px;
+}
+
+.alarm-sunrise-details {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.alarm-save-container {
+    width: 100%;
+    text-align: center;
+}
+
+.alarm-save {
+    font-size: 24px;
+}
+
+.alarm-delete {
+    font-size: 24px;
+    background-color: #E77800;
+    margin-left: 25px;
+}

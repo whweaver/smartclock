@@ -1,0 +1,84 @@
+.alarm-entry {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #A0A0A0;
+    padding:20px;
+    width: 100%;
+}
+.alarm-entry-link {
+    width:100%;
+    color:#101010;
+}
+.alarm-entry-link:active {
+    background-color: #F8F8F8;
+}
+.alarm-entry-new {
+    text-align: center;
+}
+.alarm-entry-enable {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.alarm-entry-enable-image {
+    width: 48px;
+    vertical-align: middle;
+}
+.alarm-entry-time {
+    font-weight: bold;
+    font-size: 36px;
+    display: inline;
+}
+.alarm-entry-m {
+    font-weight: normal;
+    font-size: 36px;
+    display: inline;
+}
+.alarm-entry-days {
+    font-size: 18px;
+}
+.alarm-entry-details {
+    color: #000000;
+}
+.alarm-entry-details-container {
+    height: 100%;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #C0C0C0;
+    vertical-align: middle;
+}
+.alarm-entry-features {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.alarm-entry-features-container {
+    height: auto;
+    padding-left: 20px;
+}
+.alarm-entry-feature-container {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: flex;
+}
+.alarm-entry-feature-image-container {
+    display: inline;
+    padding-right: 10px;
+}
+.alarm-entry-feature-text-container {
+    display: inline;
+}
+.alarm-entry-feature-image {
+    width: 24px;
+    vertical-align: middle;
+}
+.alarm-entry-feature-text {
+    color: #606060;
+    font-size: 18px;
+    padding-left: 5px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.alarm-entry-disabled {
+    color:#808080;
+}

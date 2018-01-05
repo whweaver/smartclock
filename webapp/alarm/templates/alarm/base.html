@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smart Clock</title>
+    <link rel="stylesheet" href="/static/shared/style/pure/pure-min.css">
+    <link rel="stylesheet" href="/static/shared/style/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="/static/base/style/style.css">
+    <script src="/static/shared/js/jquery/jquery-3.2.1.min.js"></script>
+    <script src="/static/shared/js/script.js"></script>
+{% block header_additions %}{% endblock %}
+</head>
+
+<body>
+    <div class="pure-menu pure-menu-horizontal navbar">
+        <ul class="pure-menu-list" style="width:100%">
+            <li class="pure-menu-item navbar-item">
+                <a href="/alarms" class="pure-menu-link navbar-link {% if page == 'alarms' %}navbar-link-selected{% endif %}">
+                    <img src="/static/base/images/navbar_icon_alarms.png" class="navbar-image" />
+                </a>
+            </li>
+            <li class="pure-menu-item navbar-item">
+                <a href="/accounts" class="pure-menu-link navbar-link {% if page == 'accounts' %}navbar-link-selected{% endif %}">
+                    <img src="/static/base/images/navbar_icon_accounts.png" class="navbar-image" />
+                </a>
+            </li>
+            <li class="pure-menu-item navbar-item">
+                <a href="/settings" class="pure-menu-link navbar-link {% if page == 'settings' %}navbar-link-selected{% endif %}">
+                    <img src="/static/base/images/navbar_icon_settings.png" class="navbar-image" />
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="content">
+{% block content %}{% endblock %}
+    </div>
+</body>
+</html>

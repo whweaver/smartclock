@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #101010;
+    text-align: center;
+}
+.navbar-item {
+    width: 33%;
+}
+.navbar-link {
+    text-align: center;
+}
+.navbar-image {
+    height: 36px;
+}
+.navbar-link-selected {
+    background-color: #EEE;
+}

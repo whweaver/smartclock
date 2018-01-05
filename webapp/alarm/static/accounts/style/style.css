@@ -1,0 +1,41 @@
+.account-entry {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #A0A0A0;
+    padding:20px;
+}
+.account-entry-link {
+    width:100%;
+    color:#101010;
+}
+.account-entry-link:active {
+    background-color: #F8F8F8;
+}
+.account-entry-new-container {
+    text-align: center;
+}
+.account-entry-new {
+    display: inline;
+    font-size: 36px;
+}
+.account-entry-icon {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.account-entry-icon-image {
+    width: 48px;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+}
+.account-entry-username {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.account-entry-username-text {
+    font-weight: normal;
+    font-size: 24px;
+    display: inline;
+}

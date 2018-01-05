@@ -1,0 +1,23 @@
+{% extends "alarm/base.html" %}
+
+{% block header_additions %}
+<link rel="stylesheet" href="/static/account/style/style.css">
+<script src="/static/account/js/script.js"></script>
+{% endblock %}
+
+{% block content %}
+<form class="pure-form" action="javascript:nothing()" name="accountForm" id="accountForm">
+    <div class="account-form" >
+        {% csrf_token %}
+        {{ form.service }}<br />
+        {{ form.username }}<br />
+        {{ form.password }}<br />
+        <input type="hidden" id="button" name="button" value="">
+        <input class="pure-button pure-button-primary account-form-input-save" id="Save" type="submit" value="Save" />
+{% if accountid != None %}
+        <input type="hidden" name="id" value="{{accountid}}" />
+        <input class="pure-button account-form-input-delete" id="Delete" type="submit" value="Delete" />
+{% endif %}
+    </div>
+</form>
+{% endblock %}

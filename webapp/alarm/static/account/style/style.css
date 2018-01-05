@@ -1,0 +1,36 @@
+.account-form {
+    width: 50%;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.account-form-input-service {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form-input-username {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form-input-password {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form-input-verify {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form-input-save {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.account-form-input-delete {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #E77800;
+}

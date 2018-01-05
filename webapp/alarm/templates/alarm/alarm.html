@@ -1,0 +1,96 @@
+{% extends "alarm/base.html" %}
+
+{% block header_additions %}
+<link rel="stylesheet" href="/static/alarm/style/style.css">
+<script src="/static/alarm/js/script.js"></script>
+{% endblock %}
+
+{% block content %}
+<form action="javascript:nothing()" class="pure-form" name="alarmForm" id="alarmForm">
+    {% csrf_token %}
+    <div class="alarm-time">
+        {{ form.hour }}:{{ form.minute }}
+    </div>
+    <div class="pure-g alarm-days">
+        <div class="pure-u-5-24"></div>
+        <div class="pure-u-2-24 alarm-day">
+            Mon<br />
+            {{ form.monday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Tue<br />
+            {{ form.tuesday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Wed<br />
+            {{ form.wednesday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Thu<br />
+            {{ form.thursday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Fri<br />
+            {{ form.friday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Sat<br />
+            {{ form.saturday }}
+        </div>
+        <div class="pure-u-2-24 alarm-day">
+            Sun<br />
+            {{ form.sunday }}
+        </div>
+        <div class="pure-u-5-24 alarm-day"></div>
+    </div>
+    <div class="alarm-category-container-container">
+        <div class="alarm-category-container">
+            <div class="alarm-category">
+                <div class="alarm-category-image-container">
+                    <img src="/static/alarm/images/music.png" class="alarm-category-image" /> 
+                </div>
+                <div class="alarm-category-details">
+                    <div class="alarm-music-playlist">
+                        {{ form.music_account }} {{ form.music_playlist }}
+                    </div>
+                    <div class="alarm-music-details">
+                        <div class="alarm-music-fade">
+                            <img src="/static/alarm/images/music_fade.png" class="alarm-music-detail-image" /> 0s{{ form.music_fade_seconds }}90s
+                        </div>
+                        <div class="alarm-music-vol">
+                            <img src="/static/alarm/images/music_volume.png" class="alarm-music-detail-image" /> 0%{{ form.music_vol }}100%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alarm-category-container-container">
+        <div class="alarm-category-container">
+            <div class="alarm-category">
+                <div class="alarm-category-image-container">
+                    <img src="/static/shared/images/sunrise.png" class="alarm-category-image" /> 
+                </div>
+                <div class="alarm-category-details">
+                    <div class="alarm-sunrise-details">
+                        <div class="alarm-music-fade">
+                            <img src="/static/alarm/images/sunrise_fade.png" class="alarm-music-detail-image" /> 0min{{ form.sunrise_fade_minutes }}60min
+                        </div>
+                        <div class="alarm-music-vol">
+                            <img src="/static/alarm/images/sunrise_brightness.png" class="alarm-music-detail-image" /> 0%{{ form.sunrise_brightness }}100%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alarm-save-container">
+        <input type="hidden" id="button" name="button" value="">
+        <input class="pure-button pure-button-primary alarm-save" type="submit" id="Save" value="Save" />
+{% if alarmid != None %}
+        <input type="hidden" name="id" value="{{alarmid}}" />
+        <input class="pure-button pure-button-primary alarm-delete" type="submit" id="Delete" value="Delete" />
+{% endif %}
+    </div>
+</form>
+{% endblock %}
