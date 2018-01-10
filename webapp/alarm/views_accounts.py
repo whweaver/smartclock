@@ -14,7 +14,7 @@ from pandora_service import PandoraService
 def accounts(request):
     context = dict()
     context['page'] = 'accounts'
-    context['accounts'] = MusicAccount.objects.all()
+    context['accounts'] = MusicAccount.objects.order_by('id')
     return render(request, 'alarm/accounts.html', context)
 
 def account(request, accountid):
