@@ -6,90 +6,122 @@
 {% endblock %}
 
 {% block content %}
-<form action="javascript:nothing()" class="pure-form" name="alarmForm" id="alarmForm">
+<form action="javascript:void(0)" class="pure-form" name="alarmForm" id="alarmForm">
     {% csrf_token %}
-    <div class="alarm-time">
-        {{ form.hour }}:{{ form.minute }}
+    <div id="time-container" class="section">
+        <div id="hidden-ampm" class="ampm-container">
+            <a id="am-hidden" class="ampm selected">AM</a>
+            <a id="pm-hidden" class="ampm">PM</a>
+        </div>
+        <div id="time">
+            {{ form.hour }}:{{ form.minute }}
+        </div>
+        <div id="ampm" class="ampm-container">
+            <a href="javascript:void(0)" id="am" class="ampm selector {% if form.ampm.value == "am" %}selected{% else %}unselected{% endif %}">AM</a>
+            <a href="javascript:void(0)" id="pm" class="ampm selector {% if form.ampm.value == "pm" %}selected{% else %}unselected{% endif %}">PM</a>
+            {{ form.ampm }}
+        </div>
     </div>
-    <div class="pure-g alarm-days">
-        <div class="pure-u-5-24"></div>
-        <div class="pure-u-2-24 alarm-day">
-            Mon<br />
+    <div id="days-container" class="section">
+        <div class="day-container">
+            <a href="javascript:void(0)" id="monday" class="day selector {% if form.monday.value %}selected{% else %}unselected{% endif %}">Mon</a>
             {{ form.monday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Tue<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="tuesday" class="day selector {% if form.tuesday.value %}selected{% else %}unselected{% endif %}">Tue</a>
             {{ form.tuesday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Wed<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="wednesday" class="day selector {% if form.wednesday.value %}selected{% else %}unselected{% endif %}">Wed</a>
             {{ form.wednesday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Thu<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="thursday" class="day selector {% if form.thursday.value %}selected{% else %}unselected{% endif %}">Thu</a>
             {{ form.thursday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Fri<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="friday" class="day selector {% if form.friday.value %}selected{% else %}unselected{% endif %}">Fri</a>
             {{ form.friday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Sat<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="saturday" class="day selector {% if form.saturday.value %}selected{% else %}unselected{% endif %}">Sat</a>
             {{ form.saturday }}
         </div>
-        <div class="pure-u-2-24 alarm-day">
-            Sun<br />
+        <div class="day-container">
+            <a href="javascript:void(0)" id="sunday" class="day selector {% if form.sunday.value %}selected{% else %}unselected{% endif %}">Sun</a>
             {{ form.sunday }}
         </div>
-        <div class="pure-u-5-24 alarm-day"></div>
     </div>
-    <div class="alarm-category-container-container">
-        <div class="alarm-category-container">
-            <div class="alarm-category">
-                <div class="alarm-category-image-container">
-                    <img src="/static/alarm/images/music.png" class="alarm-category-image" /> 
+    <div class="section low-padding">
+        <div class="subsection">
+            <p class="adjuster-label">Music Source</p>
+            <p class="adjuster">{{ form.music_account }}</p>
+            <p class="adjuster">{{ form.music_playlist }}</p>
+        </div>
+        <div class="subsection">
+            <p class="adjuster-label">Music Volume</p>
+            <div class="adjuster">
+                <div class="slider-container">
+                    {{ form.music_vol }}
+                    <span class="slider-value-container">
+                        <span class="slider-unit">%</span><span class="slider-value" id="music_vol_value">{{ form.music_vol_display }}</span>
+                    </span>
                 </div>
-                <div class="alarm-category-details">
-                    <div class="alarm-music-playlist">
-                        {{ form.music_account }} {{ form.music_playlist }}
-                    </div>
-                    <div class="alarm-music-details">
-                        <div class="alarm-music-fade">
-                            <img src="/static/alarm/images/music_fade.png" class="alarm-music-detail-image" /> 0s{{ form.music_fade_seconds }}90s
-                        </div>
-                        <div class="alarm-music-vol">
-                            <img src="/static/alarm/images/music_volume.png" class="alarm-music-detail-image" /> 0%{{ form.music_vol }}100%
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="subsection">
+            <p class="adjuster-label">Music Fade</p>
+            <div class="adjuster">
+                <div class="slider-container">
+                    {{ form.music_fade_seconds }}
+                    <span class="slider-value-container">
+                        <span class="slider-unit">sec</span><span class="slider-value" id="music_fade_seconds_value">{{ form.music_fade_display }}</span>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="alarm-category-container-container">
-        <div class="alarm-category-container">
-            <div class="alarm-category">
-                <div class="alarm-category-image-container">
-                    <img src="/static/shared/images/sunrise.png" class="alarm-category-image" /> 
+    <div class="section low-padding">
+        <div class="subsection">
+            <p class="adjuster-label">Sunrise Brightness</p>
+            <div class="adjuster">
+                <div class="slider-container">
+                    {{ form.sunrise_brightness }}
+                    <span class="slider-value-container">
+                        <span class="slider-unit">%</span><span class="slider-value" id="sunrise_brightness_value">{{ form.sunrise_brightness_display }}</span>
+                    </span>
                 </div>
-                <div class="alarm-category-details">
-                    <div class="alarm-sunrise-details">
-                        <div class="alarm-music-fade">
-                            <img src="/static/alarm/images/sunrise_fade.png" class="alarm-music-detail-image" /> 0min{{ form.sunrise_fade_minutes }}60min
-                        </div>
-                        <div class="alarm-music-vol">
-                            <img src="/static/alarm/images/sunrise_brightness.png" class="alarm-music-detail-image" /> 0%{{ form.sunrise_brightness }}100%
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="subsection">
+            <p class="adjuster-label">Sunrise Fade</p>
+            <div class="adjuster">
+                <div class="slider-container">
+                    {{ form.sunrise_fade_minutes }}
+                    <span class="slider-value-container">
+                        <span class="slider-unit">min</span><span class="slider-value" id="sunrise_fade_minutes_value">{{ form.sunrise_fade_display }}</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="subsection">
+            <p class="adjuster-label">Sunrise Color</p>
+            <div class="adjuster">
+                <div class="slider-container">
+                    {{ form.sunrise_color }}
+                    <span class="slider-value-container">
+                        <div class="slider-value-container" id="sunrise_color_value" style="background-color: #{{ form.sunrise_color_rgb }}"></div>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
-    <div class="alarm-save-container">
+    <div id="buttons" class="section">
         <input type="hidden" id="button" name="button" value="">
-        <input class="pure-button pure-button-primary alarm-save" type="submit" id="Save" value="Save" />
+        <input class="pure-button pure-button-primary button" type="submit" id="save" value="Save" />
 {% if alarmid != None %}
         <input type="hidden" name="id" value="{{alarmid}}" />
-        <input class="pure-button pure-button-primary alarm-delete" type="submit" id="Delete" value="Delete" />
+        <input class="pure-button pure-button-primary button" type="submit" id="delete" value="Delete" />
 {% endif %}
     </div>
 </form>

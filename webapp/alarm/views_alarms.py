@@ -65,7 +65,6 @@ def get_alarm_playlists(request):
 def change_alarm(request):
     data = {'valid': False, 'action': 'save'}
     if request.method == 'POST':
-        print(request.POST)
         if request.POST['button'] == 'save':
             if 'id' in request.POST:
                 alrm = Alarm.objects.get(id=request.POST['id'])
@@ -74,11 +73,12 @@ def change_alarm(request):
                 form = AlarmForm(request.POST)
             if form.is_valid():
                 try:
-                    form.instance.enabled = True
                     form.save()
                     data['valid'] = True
                 except:
                     pass
+            else:
+                print(form.errors)
         elif request.POST['button'] == 'delete':
             data['action'] = 'delete'
             try:

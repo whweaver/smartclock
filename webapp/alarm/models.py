@@ -89,19 +89,23 @@ class Alarm(models.Model):
                                         default=datetime.timedelta(minutes=30))
     sunrise_brightness = models.FloatField(blank=False,
                                            null=False,
-                                           default=0.5)
+                                           default=1)
+    sunrise_color = models.FloatField(blank=False,
+                                      null=False,
+                                      default=0)
 
     def get_days_display(self):
-        if self.days == 'Mon, Tue, Wed, Thu, Fri':
+        print(self.days)
+        if self.days == 'Mon, Tue, Wed, Thu, Fri, Sat, Sun, ':
             return 'Every Day'
-        elif self.days == 'Mon, Tue, Wed, Thu, Fri':
+        elif self.days == 'Mon, Tue, Wed, Thu, Fri, ':
             return 'Weekdays'
-        elif self.days == 'Sat, Sun':
+        elif self.days == 'Sat, Sun, ':
             return 'Weekends'
         elif self.days == '':
             return 'One Time'
         else:
-            return self.days
+            return self.days[:-2]
 
     def get_hour(self):
         if self.time.hour > 12:
@@ -115,6 +119,9 @@ class Alarm(models.Model):
     def get_time_display(self):
         minute = '{0:{fill}2}'.format(self.time.minute, fill='0')
         return '{}:{}'.format(str(self.get_hour()), minute)
+
+    def get_sunrise_fade_display(self):
+        return round(self.sunrise_fade.total_seconds() / 60)
 
     def get_playlist_display(self):
         display = ''
