@@ -1,5 +1,6 @@
 import math
 import datetime
+import operator
 
 from django import forms
 
@@ -116,8 +117,9 @@ class AlarmForm(forms.ModelForm):
             try:
                 acct = kwargs['instance'].music_account
                 acct.login()
-                playlists = tuple(acct.get_playlists().items())
+                unsorted_playlists = acct.get_playlists()
                 acct.logout()
+                playlists = sorted(unsorted_playlists.items(), key=operator.itemgetter(1))
                 self.fields['music_playlist'].choices = playlists
                 self.fields['music_playlist'].widget.choices = playlists
             except:

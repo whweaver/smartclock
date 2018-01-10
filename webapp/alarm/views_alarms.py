@@ -1,4 +1,5 @@
 # Views related to alarms
+import operator
 
 from django.shortcuts import render
 from django.http import JsonResponse
@@ -14,7 +15,7 @@ from pandora_service import PandoraService
 def alarms(request):
     context = dict()
     context['page'] = 'alarms'
-    context['alarms'] = Alarm.objects.all()
+    context['alarms'] = Alarm.objects.order_by('id')
     return render(request, 'alarm/alarms.html', context)
 
 def enable_alarm(request):
@@ -55,8 +56,9 @@ def get_alarm_playlists(request):
             try:
                 acct = form.cleaned_data['music_account']
                 acct.login()
-                context['playlists'] = acct.get_playlists()
+                unsorted_playlists = acct.get_playlists()
                 acct.logout()
+                context['playlists'] = sorted(unsorted_playlists.items(), key=operator.itemgetter(1))
             except:
                 pass
 

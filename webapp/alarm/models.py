@@ -95,7 +95,6 @@ class Alarm(models.Model):
                                       default=0)
 
     def get_days_display(self):
-        print(self.days)
         if self.days == 'Mon, Tue, Wed, Thu, Fri, Sat, Sun, ':
             return 'Every Day'
         elif self.days == 'Mon, Tue, Wed, Thu, Fri, ':
