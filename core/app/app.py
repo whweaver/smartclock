@@ -35,6 +35,3 @@ class Application:
                 self.process()
         except KeyboardInterrupt:
             print("Shutting down...")
-
-if __name__ == '__main__':
-    Application().run()

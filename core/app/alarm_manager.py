@@ -113,7 +113,6 @@ class AlarmComponent:
         self.alarm_time = alarm_time
         self.alarming = False
         self._set_times(alarm_time, duration)
-        print(self.alarm_time, self.fade_end_time, self.fade_duration, self.nominal_fade_duration, self.fade_start_time)
 
     def _set_times(self, alarm_time, duration):
         self.fade_end_time = alarm_time
