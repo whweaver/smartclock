@@ -20,5 +20,5 @@ class Clock:
             if hour > 12:
                 hour -= 12
             self.display.update(hour, cur_time.minute)
-            self.hour = hour
+            self.hour = cur_time.hour
             self.minute = cur_time.minute

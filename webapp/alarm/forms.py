@@ -128,7 +128,7 @@ class AlarmForm(forms.ModelForm):
     def save(self, commit=True):
         hour_num = int(self.cleaned_data['hour'])
         min_num = int(self.cleaned_data['minute'])
-        if self.cleaned_data['ampm'] == 'PM':
+        if self.cleaned_data['ampm'].lower() == 'pm':
             hour = hour_num + 12
         elif hour_num == 12:
             hour = 0

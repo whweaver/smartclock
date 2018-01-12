@@ -119,6 +119,13 @@ class Alarm(models.Model):
         minute = '{0:{fill}2}'.format(self.time.minute, fill='0')
         return '{}:{}'.format(str(self.get_hour()), minute)
 
+    def get_ampm_display(self):
+        if self.time.hour >= 12:
+            ampm = 'pm'
+        else:
+            ampm = 'am'
+        return ampm
+
     def get_sunrise_fade_display(self):
         return round(self.sunrise_fade.total_seconds() / 60)
 

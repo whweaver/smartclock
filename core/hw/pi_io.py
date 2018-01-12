@@ -178,7 +178,7 @@ class Speaker:
     def set_volume(self, vol):
         if vol > 1 or vol < 0:
             raise PiIOException("Volume must be between 0 and 1")
-        self.mixer.setvolume(vol * MAX_VOLUME)
+        self.mixer.setvolume(int(vol * Speaker.MAX_VOLUME))
 
 class PiIOException(Exception):
     pass

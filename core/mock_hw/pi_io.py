@@ -24,14 +24,18 @@ class SnoozeButton:
 
     def __init__(self, alarm):
         self.ct = 0
+        self.alarm = alarm
         print("Initializing snooze button")
 
     def process(self):
-        self.ct += 1
-        if self.ct % 3000 == 0:
-            self.alarm.reset()
-        elif self.ct % 1000 == 0:
-            self.alarm.snooze()
+        pass
+        #self.ct += 1
+        #if self.ct % 3000 == 0:
+        #    print("Resetting")
+        #    self.alarm.reset()
+        #elif self.ct % 1000 == 0:
+        #    print("Snoozing")
+        #    self.alarm.snooze()
 
 class Sunrise:
     def __init__(self):
@@ -68,19 +72,21 @@ class Display:
         print("Setting brightness to " + str(brightness))
 
     def update(self, hour, minute):
-        print("Updating to %d:%0d".format(hour, minute))
+        print("Updating to {0:}:{1:02d}".format(hour, minute))
 
 class Speaker:
     MAX_VOLUME = 100
     VOLUME_INCREMENT = 1 / MAX_VOLUME
 
     def __init__(self):
+        print("Initializing speaker")
         self.mixer = alsaaudio.Mixer()
 
     def set_volume(self, vol):
+        print("Setting volume to " + str(vol))
         if vol > 1 or vol < 0:
             raise PiIOException("Volume must be between 0 and 1")
-        self.mixer.setvolume(vol * MAX_VOLUME)
+        self.mixer.setvolume(int(vol * Speaker.MAX_VOLUME))
 
 class PiIOException(Exception):
     pass

@@ -3,7 +3,6 @@
 import env
 
 import time
-import signal
 import datetime
 
 import clock
@@ -17,16 +16,18 @@ class Application:
         self.io_daemon = pi_io.PigpioDaemon()
         self.clock = clock.Clock()
         self.alarm_manager = alarm_manager.AlarmManager()
-        signal.signal(signal.SIGINT, self.sig_handler)
-        signal.signal(signal.SIGTERM, self.sig_handler)
+
+    def refresh_alarms(self):
+        self.alarm_manager.refresh()
 
     def process(self):
         start_time = datetime.datetime.now()
         self.clock.process()
         self.alarm_manager.process()
-        self.io.process()
         end_time = datetime.datetime.now()
-        time.sleep((CYCLE_TIME - (end_time - start_time)).total_seconds())
+        elapsed_time = end_time - start_time
+        if elapsed_time < Application.CYCLE_TIME:
+            time.sleep((Application.CYCLE_TIME - elapsed_time).total_seconds())
 
     def run(self):
         try:
@@ -34,3 +35,6 @@ class Application:
                 self.process()
         except KeyboardInterrupt:
             print("Shutting down...")
+
+if __name__ == '__main__':
+    Application().run()
