@@ -140,9 +140,9 @@ class Display:
 
     def __init__(self):
         self.pi = pigpio.pi()
-        self.i2c = self.pi.i2c_open(I2C_BUS, I2C_ADDRESS, 0)
-        self.pi.i2c_write_byte(self.i2c, START_OSC_CMD) # Start oscillator
-        self.blink(BLINK_OFF)
+        self.i2c = self.pi.i2c_open(Display.I2C_BUS, Display.I2C_ADDRESS, 0)
+        self.pi.i2c_write_byte(self.i2c, Display.START_OSC_CMD) # Start oscillator
+        self.blink(Display.BLINK_OFF)
         self.set_brightness(0)
 
     def __del__(self):
@@ -150,23 +150,23 @@ class Display:
         self.pi.stop()
 
     def blink(self, blink):
-        self.pi.i2c_write_byte(self.i2c, BLINK_CMD | blink)
+        self.pi.i2c_write_byte(self.i2c, Display.BLINK_CMD | blink)
 
     def set_brightness(self, brightness):
         if brightness > 1 or brightness < 0:
             raise PiIOException("Brightness must be between 0 and 1")
         scaled_br = int(round(brightness * 15))
-        self.pi.i2c_write_byte(self.i2c, BRIGHTNESS_CMD | scaled_br)
+        self.pi.i2c_write_byte(self.i2c, Display.BRIGHTNESS_CMD | scaled_br)
 
     def update(self, hour, minute):
         buf = [
-            0x00, HEX_TO_BACKPACK_CODE[hour // 10],
-            0x00, HEX_TO_BACKPACK_CODE[hour % 10],
-            0x00, COLON_BACKPACK_CODE,
-            0x00, HEX_TO_BACKPACK_CODE[minute // 10],
-            0x00, HEX_TO_BACKPACK_CODE[minute % 10]
+            0x00, Display.HEX_TO_BACKPACK_CODE[hour // 10],
+            0x00, Display.HEX_TO_BACKPACK_CODE[hour % 10],
+            0x00, Display.COLON_BACKPACK_CODE,
+            0x00, Display.HEX_TO_BACKPACK_CODE[minute // 10],
+            0x00, Display.HEX_TO_BACKPACK_CODE[minute % 10]
         ]
-        self.pi.i2c_write_i2c_block_data(self.i2c, DIGIT_DATA_ADDR, buf)
+        self.pi.i2c_write_i2c_block_data(self.i2c, Display.DIGIT_DATA_ADDR, buf)
 
 class Speaker:
     MAX_VOLUME = 100
