@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fade",
+				"fade_time"
+			],
+			[
 				"warm",
 				"warm_weight"
 			],
@@ -510,20 +514,25 @@
 			[
 				"MEN",
 				"MENU_INDEX_COUNT"
-			],
-			[
-				"MENU",
-				"MENU_INDEX_FDM"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "core/app/clock.py",
+			"file": "core/app/app.py",
 			"settings":
 			{
-				"buffer_size": 717,
+				"buffer_size": 952,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/run.py",
+			"settings":
+			{
+				"buffer_size": 206,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -532,16 +541,16 @@
 			"file": "core/app/alarm_manager.py",
 			"settings":
 			{
-				"buffer_size": 7032,
+				"buffer_size": 9235,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webapp/alarm/models.py",
+			"file": "webapp/alarm/views_alarms.py",
 			"settings":
 			{
-				"buffer_size": 4529,
+				"buffer_size": 2857,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -550,94 +559,16 @@
 			"file": "webapp/alarm/forms.py",
 			"settings":
 			{
-				"buffer_size": 8667,
+				"buffer_size": 8941,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webapp/alarm/templates/alarm/alarm.html",
+			"file": "core/app/clock.py",
 			"settings":
 			{
-				"buffer_size": 3920,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/static/alarm/style/style.css",
-			"settings":
-			{
-				"buffer_size": 1406,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/templates/alarm/alarm_new.html",
-			"settings":
-			{
-				"buffer_size": 6056,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/static/alarm/style/style_new.css",
-			"settings":
-			{
-				"buffer_size": 2512,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/static/alarm/js/script_new.js",
-			"settings":
-			{
-				"buffer_size": 5293,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/static/alarm/js/script.js",
-			"settings":
-			{
-				"buffer_size": 1221,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/static/alarms/style/style.css",
-			"settings":
-			{
-				"buffer_size": 1607,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/views_alarms.py",
-			"settings":
-			{
-				"buffer_size": 2712,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webapp/alarm/templates/alarm/alarms.html",
-			"settings":
-			{
-				"buffer_size": 3303,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "core/hw/pi_io.py",
-			"settings":
-			{
-				"buffer_size": 5297,
+				"buffer_size": 726,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -646,7 +577,16 @@
 			"file": "core/mock_hw/pi_io.py",
 			"settings":
 			{
-				"buffer_size": 2186,
+				"buffer_size": 2398,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "core/hw/pi_io.py",
+			"settings":
+			{
+				"buffer_size": 5310,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -656,26 +596,6 @@
 			"settings":
 			{
 				"buffer_size": 279,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "import sys"
-			}
-		},
-		{
-			"file": "core/run.py",
-			"settings":
-			{
-				"buffer_size": 48,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "import env"
-			}
-		},
-		{
-			"file": "core/app/app.py",
-			"settings":
-			{
-				"buffer_size": 935,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -748,46 +668,56 @@
 	],
 	"file_history":
 	[
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/account/js/script.js",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarms/style/style.css",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/base/style/style.css",
-		"/home/will/Projects/Personal/Personal/smartclock/core/app/app.py",
-		"/home/will/Projects/Personal/Personal/smartclock/core/app/stoppable_thread.py",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/models.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/lib/pandora_service.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/lib/music_service.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/manage.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/run.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/alarm_manager.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarms.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/forms.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/settings.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views_alarms.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/playlists.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views_accounts.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarm.html",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/clock.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarm_new.html",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/style/style_new.css",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/js/script_new.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarms/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/core/hw/pi_io.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/mock_hw/pi_io.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/env.py",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/app.py",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/account/js/script.js",
+		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/base/style/style.css",
+		"/home/will/Projects/Personal/Personal/smartclock/core/app/stoppable_thread.py",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/hw/input.py",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/webapp/settings.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/alarm.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/js/script.js",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarms.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarms/js/script.js",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/urls.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarm.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/base.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/shared/js/script.js",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/account.html",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/views_accounts.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/pandora_service.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/alarm/style/style.css",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/account/style/style.css",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/accounts/style/style.css",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/music_service.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/forms.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/playlists.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/static/settings/style/style.css",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/accounts.html",
-		"/home/will/Projects/Personal/Personal/smartclock/core/app/clock.py",
 		"/home/will/Projects/Personal/Personal/smartclock/env/lib/python3.5/site-packages/pydora/audio_backend.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/pandora.py",
 		"/usr/local/bin/pydora",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/alarms_entry.html",
 		"/home/will/Projects/Personal/Personal/smartclock/webapp/webapp/urls.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/alarm/templates/alarm/settings.html",
 		"/home/will/Projects/Personal/Personal/smartclock/core/hw/hw_7seg.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/seven_seg.py",
 		"/home/will/Projects/Personal/Personal/smartclock/core/app/timer.py",
-		"/home/will/Projects/Personal/Personal/smartclock/webapp/manage.py",
 		"/home/will/Projects/Personal/Personal/smartclock/smartclock.sublime-project",
 		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/views.py",
 		"/home/will/Projects/Personal/Personal/smartclock/src/webapp/alarm/urls.py",
@@ -865,21 +795,11 @@
 		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Event/LIB/EVNT_Types.h",
 		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/LIB/GNTX_FDM_GUI/GNTX_FDM_GUI_Types.h",
 		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_ColorRed.c",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.h",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.c",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/config/test_GentexConfigurationFile.c",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_TiltOffsets.h",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.c",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Display/PS/PS_VideoProcessing_Comms.h",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Config/cfg/assets/GentexConfigurationFile.c.erb",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/config/GentexConfigurationFile.h",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Test/src/app0/Cals/test_PS_CALS_Data.c",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/PLI/PLI.h",
-		"/home/will/Projects/Aftermarket/1654/Zynq/Programming/Python/prog_bitstream.py"
+		"/home/will/Projects/Aftermarket/1654/Zynq/Code/app/app0/Cals/PS/PS_CALS_Data.h"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -890,9 +810,12 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			".alarm_time",
+			"print",
+			"\n                ",
 			"void",
 			"color",
 			"2em",
@@ -924,7 +847,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 			" ",
@@ -945,24 +868,186 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "core/app/clock.py",
+					"file": "core/app/app.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 717,
+						"buffer_size": 952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								235,
-								235
+								952,
+								952
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "05516684",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "core/run.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								206,
+								206
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "d79fed6b",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "core/app/alarm_manager.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8703,
+								8703
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "54f56c56",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3105.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "webapp/alarm/views_alarms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2516,
+								2516
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "108cddc6",
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "webapp/alarm/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5206,
+								5206
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "602f31d6",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "core/app/clock.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 726,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								726,
+								726
 							]
 						],
 						"settings":
@@ -978,454 +1063,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "core/app/alarm_manager.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7032,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1298,
-								1298
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "python django",
-							"buffer_scroll_name": "54f56c56",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "webapp/alarm/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3232,
-								3232
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "python django",
-							"buffer_scroll_name": "aecd7b32",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1395.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "webapp/alarm/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5511,
-								5511
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "python django",
-							"buffer_scroll_name": "602f31d6",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1350.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "webapp/alarm/templates/alarm/alarm.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3920,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3896,
-								3465
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html (django)",
-							"buffer_scroll_name": "16fa50bc",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 885.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "webapp/alarm/static/alarm/style/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1405,
-								1275
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "css (django)",
-							"buffer_scroll_name": "6e6678d9",
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "webapp/alarm/templates/alarm/alarm_new.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6056,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2012,
-								2012
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "70abc7ba",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "webapp/alarm/static/alarm/style/style_new.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2512,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2377,
-								2377
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "a11a2ace",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2025.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "webapp/alarm/static/alarm/js/script_new.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5293,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2158,
-								2158
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "13a15014",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 996.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "webapp/alarm/static/alarm/js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1195,
-								455
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "02960074",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "webapp/alarm/static/alarms/style/style.css",
+					"buffer": 6,
+					"file": "core/mock_hw/pi_io.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1607,
+						"buffer_size": 2398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "css (django)",
-							"buffer_scroll_name": "ce6a21c7",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/CSS (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "webapp/alarm/views_alarms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2281,
-								2281
+								2355,
+								2355
 							]
 						],
 						"settings":
 						{
 							"bs_sintax": "python django",
-							"buffer_scroll_name": "108cddc6",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 576.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "webapp/alarm/templates/alarm/alarms.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3303,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1799,
-								1799
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "html (django)",
-							"buffer_scroll_name": "5157ec19",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "core/hw/pi_io.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5297,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4061,
-								4061
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "4731b043",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1620.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "core/mock_hw/pi_io.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2186,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1344,
-								1344
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "plain text",
 							"buffer_scroll_name": "deb0caa0",
 							"spell_check": false,
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
@@ -1433,14 +1093,47 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 450.0,
+						"translation.y": 675.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 7,
+					"file": "core/hw/pi_io.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5300,
+								5300
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "python django",
+							"buffer_scroll_name": "4731b043",
+							"spell_check": false,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2122.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "core/env.py",
 					"semi_transient": false,
 					"settings":
@@ -1458,8 +1151,7 @@
 						],
 						"settings":
 						{
-							"auto_name": "import sys",
-							"bs_sintax": "plain text",
+							"bs_sintax": "python django",
 							"buffer_scroll_name": "4f234f13",
 							"spell_check": false,
 							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
@@ -1468,72 +1160,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "core/run.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 48,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import env",
-							"bs_sintax": "plain text",
-							"buffer_scroll_name": "d79fed6b",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "core/app/app.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								935,
-								935
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "python django",
-							"buffer_scroll_name": "05516684",
-							"spell_check": false,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -1588,6 +1215,102 @@
 		"selected_items":
 		[
 			[
+				"pando",
+				"core/lib/pandora_service.py"
+			],
+			[
+				"mode",
+				"webapp/alarm/models.py"
+			],
+			[
+				"music",
+				"core/lib/music_service.py"
+			],
+			[
+				"modl",
+				"webapp/alarm/models.py"
+			],
+			[
+				"forms",
+				"webapp/alarm/forms.py"
+			],
+			[
+				"views",
+				"webapp/alarm/views_alarms.py"
+			],
+			[
+				"models",
+				"webapp/alarm/models.py"
+			],
+			[
+				"run",
+				"core/run.py"
+			],
+			[
+				"manage",
+				"webapp/manage.py"
+			],
+			[
+				"alarm",
+				"core/app/alarm_manager.py"
+			],
+			[
+				"lock",
+				"core/app/clock.py"
+			],
+			[
+				"pioi",
+				"core/mock_hw/pi_io.py"
+			],
+			[
+				"piio",
+				"core/hw/pi_io.py"
+			],
+			[
+				"env",
+				"core/env.py"
+			],
+			[
+				"app",
+				"core/app/app.py"
+			],
+			[
+				"core/",
+				"core/run.py"
+			],
+			[
+				"sett",
+				"webapp/alarm/templates/alarm/settings.html"
+			],
+			[
+				"model",
+				"webapp/alarm/models.py"
+			],
+			[
+				"play",
+				"webapp/alarm/templates/alarm/playlists.html"
+			],
+			[
+				"pandora",
+				"core/lib/pandora_service.py"
+			],
+			[
+				"modle",
+				"webapp/alarm/models.py"
+			],
+			[
+				"alarm.ht",
+				"webapp/alarm/templates/alarm/alarm.html"
+			],
+			[
+				"alarms",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
+				"alarms.h",
+				"webapp/alarm/templates/alarm/alarms.html"
+			],
+			[
 				"script",
 				"webapp/alarm/static/alarm/js/script.js"
 			],
@@ -1612,28 +1335,12 @@
 				"webapp/alarm/templates/alarm/alarm.html"
 			],
 			[
-				"forms",
-				"webapp/alarm/forms.py"
-			],
-			[
-				"app",
-				"core/app/app.py"
-			],
-			[
 				"views_ala",
 				"webapp/alarm/views_alarms.py"
 			],
 			[
-				"models",
-				"webapp/alarm/models.py"
-			],
-			[
 				"views_al",
 				"webapp/alarm/views_alarms.py"
-			],
-			[
-				"views",
-				"webapp/alarm/views.py"
 			],
 			[
 				"stop",
@@ -1648,10 +1355,6 @@
 				"core/app/alarm.py"
 			],
 			[
-				"sett",
-				"webapp/webapp/settings.py"
-			],
-			[
 				"url",
 				"webapp/alarm/urls.py"
 			],
@@ -1660,20 +1363,12 @@
 				"webapp/alarm/templates/alarm/base.html"
 			],
 			[
-				"alarm",
-				"webapp/alarm/templates/alarm/alarm.html"
-			],
-			[
 				"alamrs",
 				"webapp/alarm/templates/alarm/alarms.html"
 			],
 			[
 				"pandor",
 				"core/app/pandora_service.py"
-			],
-			[
-				"alarms",
-				"webapp/alarm/templates/alarm/alarms.html"
 			],
 			[
 				"acc",
@@ -1706,14 +1401,6 @@
 			[
 				"views_ac",
 				"webapp/alarm/views_accounts.py"
-			],
-			[
-				"music",
-				"core/app/music_service.py"
-			],
-			[
-				"modle",
-				"webapp/alarm/models.py"
 			],
 			[
 				"alarms.",
@@ -2038,66 +1725,6 @@
 			[
 				"videotypes",
 				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Core/VideoProcessing_Types.h"
-			],
-			[
-				"videooverdiag",
-				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
-			],
-			[
-				"vidoverdia",
-				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
-			],
-			[
-				"gpuoverlay",
-				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/GPU_Zynq/GPU_Overlays.c"
-			],
-			[
-				"videoo",
-				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Overlays_Diag.c"
-			],
-			[
-				"video",
-				"Zynq/Code/app/app0/Display/LIB/VideoProcessing/Diag/VideoProcessing_Diag.c"
-			],
-			[
-				"emio.h",
-				"Zynq/Code/app/app0/Pin_Init/EMIO.h"
-			],
-			[
-				"psguimdms",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_MDM_Splash.c"
-			],
-			[
-				"testpsguimdms",
-				"Zynq/Test/src/app0/GUI/PS/test_PS_GUI_MDM_Splash.c"
-			],
-			[
-				"fdmrcd",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_RCD.c"
-			],
-			[
-				"gntmac",
-				"Zynq/Code/common/libs/SharedIncludes/GNTX_Common_Macros.h"
-			],
-			[
-				"buttoni2c",
-				"Zynq/Code/app/app0/Button/Platform/Button_I2c/Button_I2c.c"
-			],
-			[
-				"psguihl",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_HL.c"
-			],
-			[
-				"fdmspas",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_Splash.c"
-			],
-			[
-				"fdmspash",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_FDM_Splash.c"
-			],
-			[
-				"psguidata",
-				"Zynq/Code/app/app0/GUI/PS/PS_GUI_Data.c"
 			]
 		],
 		"width": 0.0
@@ -2110,7 +1737,7 @@
 		[
 			[
 				"",
-				"~/Projects/Aftermarket/1654/Zynq/Corporate_Gen2_FDM_Zynq.sublime-project"
+				"~/Projects/Corporate/1654/Zynq/Corporate_Gen2_FDM_Zynq.sublime-project"
 			],
 			[
 				"gntx",

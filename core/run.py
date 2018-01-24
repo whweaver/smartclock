@@ -9,4 +9,4 @@ if __name__ == '__main__':
             app.Application().run()
             try_again = False
         except:
-            pass
+            raise

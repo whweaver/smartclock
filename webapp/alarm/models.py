@@ -36,6 +36,21 @@ class MusicAccount(models.Model):
         }
         return '{} ({})'.format(names[self.service], self.username)
 
+    def __eq__(self, other):
+        if isinstance(other, MusicAccount):
+            return ((self.service == other.service) and
+                    (self.username == other.username) and
+                    (self.password == other.password))
+        else:
+            return NotImplemented
+
+    def __ne__(self, other):
+        eq = self.__eq__(other)
+        if eq is NotImplemented:
+            return eq
+        else:
+            return not eq
+
     def get_service(self):
         if self.service == 'P':
             svc = PandoraService()

@@ -78,7 +78,7 @@ def change_alarm(request):
                     form.save()
                     data['valid'] = True
                 except:
-                    pass
+                    raise
             else:
                 print(form.errors)
         elif request.POST['button'] == 'delete':
