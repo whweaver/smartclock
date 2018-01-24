@@ -7,12 +7,26 @@ import datetime
 import alsaaudio
 import pigpio
 
-SUNRISE_WARM_PWM_PIN = 0
-SUNRISE_COOL_PWM_PIN = 0
+SUNRISE_WARM_PWM_PIN = 12
+SUNRISE_COOL_PWM_PIN = 13
+I2C_SDA_PIN = 2
+I2C_SCL_PIN = 3
+SPI_MOSI_PIN = 10
+SPI_MISO_PIN = 9
+SPI_SCLK_PIN = 11
+SPI_SS_PIN = 0
+AUDIO_PINS = [18, 19, 21]
 
 class PigpioDaemon:
     def __init__(self):
-        updatable_gpio = (1 << SUNRISE_WARM_PWM_PIN) + (1 << SUNRISE_COOL_PWM_PIN)
+        updatable_gpio = ((1 << SUNRISE_WARM_PWM_PIN) |
+                          (1 << SUNRISE_COOL_PWM_PIN) |
+                          (1 << I2C_SDA_PIN) |
+                          (1 << I2C_SCL_PIN) |
+                          (1 << SPI_MOSI_PIN) |
+                          (1 << SPI_MISO_PIN) |
+                          (1 << SPI_SCLK_PIN) |
+                          (1 << SPI_SS_PIN))
         self.daemon_process = subprocess.Popen(["sudo", "pigpiod", "-s", "10", "-x", str(updatable_gpio)])
 
     def __del__(self):
@@ -115,7 +129,7 @@ class Display:
     BLINK_CMD = 0x80
     START_OSC_CMD = 0x21
     BRIGHTNESS_CMD = 0xE0
-    I2C_BUS = 0
+    I2C_BUS = 1
     I2C_ADDRESS = 0x70
     DIGIT_DATA_ADDR = 0x00
     HEX_TO_BACKPACK_CODE = [
